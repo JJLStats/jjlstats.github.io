@@ -19,12 +19,6 @@ html, body {
   overflow: hidden;
 }
 
-a {
-	font-weight: bold;
-	color: #dbdbff;
-	text-decoration: none;
-}
-
 #intro-screen * {
 	color: #dddddd;
 }
@@ -39,6 +33,13 @@ a {
 #intro-screen {
     overflow-y: auto;
 }
+
+a {
+	font-weight: bold;
+	color: #dbdbff !important;
+	text-decoration: none;
+}
+
 #app-container {
   display: flex;
   height: 100vh;
