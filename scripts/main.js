@@ -53,11 +53,13 @@ document.addEventListener('fullscreenchange', () => {
 });
 
 (() => {
+  const mainContent = document.getElementById('main-content');
   const sidebar = document.getElementById('sidebar');
   const toggleBtn = document.getElementById('sidebar-toggle');
 
   toggleBtn.addEventListener('click', () => {
     sidebar.classList.toggle('collapsed');
+    mainContent.classList.toggle('collapsed');
     if (sidebar.classList.contains('collapsed')) {
       toggleBtn.innerText = '▶';
     } else {
