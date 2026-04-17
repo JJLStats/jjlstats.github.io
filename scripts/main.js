@@ -116,6 +116,7 @@ document.addEventListener('fullscreenchange', () => {
     opt.onclick = function() { 
       weekSelect(this, v);
       if (activeClub) {
+        window.location.hash = `${activeClub}_${v.toLowerCase()}`;
         loadData(activeClub);
       }
     }
@@ -136,6 +137,8 @@ document.addEventListener('fullscreenchange', () => {
     
     opt.onclick = function() { 
       clubSelect(this, k);
+      window.location.hash = `${k}_${activeWeek.toLowerCase()}`;
+      
       introScreen.classList.add('hidden');
       dashboardView.classList.remove('hidden');
       loadData(k);
@@ -153,5 +156,43 @@ document.addEventListener('fullscreenchange', () => {
     activeClub = null;
     loadClub = null;
     datastore = {};
+  });
+
+  function handleHash() {
+    const hash = window.location.hash.substring(1); 
+    if (!hash || !hash.includes('_')) return;
+
+    const [clubId, weekId] = hash.split('_');
+    if (activeClub === clubId && activeWeek?.toLowerCase() === weekId.toLowerCase()) {
+      return;
+    }
+
+    const weekBtns = document.querySelectorAll('#week-select .ui-btn');
+    weekBtns.forEach((btn, index) => {
+      if (weekId.toLowerCase() === `w${index + 1}`) {
+        weekSelect(btn, WeekID[index]);
+      }
+    });
+
+    const clubBtns = document.querySelectorAll('#club-select .ui-btn');
+    const clubName = Club_Opts[clubId.toLowerCase()];
+    
+    clubBtns.forEach(btn => {
+      if (btn.innerText === clubName) {
+        introScreen.classList.add('hidden');
+        dashboardView.classList.remove('hidden');
+        clubSelect(btn, clubId.toLowerCase());
+        loadData(clubId.toLowerCase());
+      }
+    });
+  }
+
+  window.addEventListener('hashchange', handleHash);
+  setTimeout(handleHash, 500);
+
+  document.addEventListener('click', (e) => {
+    if (e.target.tagName === 'A' && e.target.getAttribute('href').startsWith('#')) {
+      setTimeout(handleHash, 10);
+    }
   });
 })();
