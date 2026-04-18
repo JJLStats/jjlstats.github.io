@@ -62,7 +62,7 @@ function track_click(e) {
 
 		
 		const jsonSnippet = {
-		  "clubName": Club_Opts[activeClub],
+		  "clubName": ClubID[activeClub],
 		  "memberName": memberName,
 		  "memberId": memberId,
 		  "club": activeClub,
@@ -418,7 +418,7 @@ ctx._chart = new Chart(ctx, {
         title: {
           display: true,
           color: '#00e0ff', // CLUB NAME COLOR
-          text: Club_Opts[activeClub]
+          text: ClubID[activeClub]
         },
         tooltip: {
           callbacks: {

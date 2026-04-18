@@ -129,8 +129,8 @@ document.addEventListener('fullscreenchange', () => {
   const dashboardView = document.getElementById('dashboard-view');
   const closeChartBtn = document.getElementById('close-chart-btn');
 
-  for (let k in Club_Opts) {
-    let n = Club_Opts[k];
+  for (let k in ClubID) {
+    let n = ClubID[k];
     let opt = document.createElement("button");
     opt.innerText = n;
     opt.classList.add("ui-btn");
@@ -175,7 +175,7 @@ document.addEventListener('fullscreenchange', () => {
     });
 
     const clubBtns = document.querySelectorAll('#club-select .ui-btn');
-    const clubName = Club_Opts[clubId.toLowerCase()];
+    const clubName = ClubID[clubId.toLowerCase()];
     
     clubBtns.forEach(btn => {
       if (btn.innerText === clubName) {
