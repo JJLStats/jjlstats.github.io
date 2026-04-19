@@ -94,7 +94,8 @@ a {
 }
 
 #bottom-panel {
-  height: 200px;
+  max-height: 200px;
+  height: fit-content;
   flex-shrink: 0;
   margin-top: 15px;
   background: var(--bg-panel);
@@ -102,6 +103,8 @@ a {
   border: 1px solid var(--border-color);
   padding: 15px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  position: relative;
+  transition: height 0.3s ease, margin-top 0.3s ease, padding 0.3s ease, border-width 0.3s ease;
 }
 
 #notes-area {
@@ -117,23 +120,11 @@ a {
   font-family: inherit;
   font-size: 0.95rem;
   transition: opacity 0.2s;
+  white-space: pre-wrap;
 }
 
 #notes-area:focus {
   outline: 1px solid var(--accent);
-}
-
-#bottom-panel {
-  position: relative;
-  height: 200px; 
-  flex-shrink: 0; 
-  margin-top: 15px;
-  background: var(--bg-panel);
-  border-radius: 12px;
-  border: 1px solid var(--border-color);
-  padding: 15px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-  transition: height 0.3s ease, margin-top 0.3s ease, padding 0.3s ease, border-width 0.3s ease;
 }
 
 #bottom-toggle {

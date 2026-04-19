@@ -265,9 +265,7 @@ async function visualize(datastore) {
     const textRes = await fetch('data/texts.json');
     if (textRes.ok) {
       let allTexts = await textRes.json();
-
       let matchedText = allTexts.find(t => t.club === activeClub && t.week === activeWeek);
-      
       if (matchedText) {
         clubText = matchedText.text;
       }
