@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>June's Journey League 37 Data & Tracking</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Track, analyze, and review points data for June's Journey League 37. Explore member histories, detect anomalies, and monitor club performance.">
+  <meta name="author" content="JJ Detectives">
+  <meta name="theme-color" content="#121212"> <link rel="canonical" href="https://jjlstats.github.io/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jjlstats.github.io/">
+  <meta property="og:title" content="June's Journey League 37 Data & Tracking">
+  <meta property="og:description" content="Track, analyze, and review points data for June's Journey League 37. Explore member histories and monitor club performance.">
+  <meta property="og:image" content="https://jjlstats.github.io/assets/league-preview-image.jpg">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://jjlstats.github.io/">
+  <meta property="twitter:title" content="June's Journey League 37 Data">
+  <meta property="twitter:description" content="Track, analyze, and review points data for June's Journey League 37.">
+  <meta property="twitter:image" content="https://jjlstats.github.io/assets/league-preview-image.jpg">
+
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/timeframe.css">
+</head>
+<body>
+  
+  <div id="app-container">
+    
+    <aside id="sidebar">
+      <div class="sidebar-inner">
+        <div class="sidebar-header">
+          <h2>JJ League 37</h2>
+					<div class="info">
+						<div class="text"></div>
+					</div>
+          <button id="fullscreen-btn" class="action-btn">⛶ Fullscreen</button>
+        </div>
+
+        <div class="control-group">
+          <h3>Week</h3>
+          <div id="week-select" class="btn-grid"></div>
+        </div>
+
+        <div class="control-group">
+          <h3>Teams</h3>
+          <div id="club-select" class="btn-list"></div>
+        </div>
+				
+      </div>
+      
+      <button id="sidebar-toggle" title="Toggle Sidebar">◀</button>
+    </aside>
+
+    <main id="main-content">
+      
+      <div id="intro-screen">
+        <h1>JJ League 37 Stats</h1>
+        <p>This is a collection of League Points accumulated by individual Accounts on the top 7 Teams</p>
+        <p>It was supposed to show what Teams did or may have done to accumulate these League Points to understand strategies used</p>
+        <p>However while looking at the data and the behaviour of the Accounts, things started looking suspicious and upon further investigation it turned out that <b>some</b> Teams have been using cheats and glitches to gain an unfair advantage. Not every Team listed is guaranteed to be cheating</p>
+        <p>Keep in mind that under <b>Section 6</b> of June's Journey's <a target="_blank" href="https://www.wooga.com/legal/en-terms-of-service">Terms of Service</a>, the (ab)use of glitches or bugs is considered cheating and therefore a violation of the Terms of Service.<br>
+		<span class='subnote'>Since even the sharing of glitches is a violation, the exact way of how glitches are done will not be shared <b>for now</b>. However, if no action is taken by Wooga, it will be taken as "part of the game", and be shared after the league concludes, to make it a fair game for everyone</span></p>
+		<p>Below is a list of behaviours observed on <b>some</b> of these Teams. Please note, that not everything applies to every Team</p>
+		<div style="width: 100%;"><b>Examples of glitches that have been abused</b>
+		<ul>
+			<li>Serving additional drinks</li>
+			<li>"Double drinking" drinks</li>
+			<li>Collecting the Club Mystery Milestones multiple times</li>
+			<li>Extending Competition Time</li>
+			<li>Sending high amounts of bushes <i>(notably Sherlock)</i></li>
+		</ul>
+		</div>
+		<div style="width: 100%;"><b>Examples of unfair play observed</b>
+		<ul>
+			<li>Using additional accounts for extra drinks</li>
+			<li>Using additional accounts for extra League Points</li>
+		</ul>
+		<span class='subnote'>These have at some point been punished by Wooga, just not this time</span><br><br>
+		Additionally it could be observed that in some cases, the extra accounts, that were generally on Level <i>16-19</i>, accumulated League Points at an absolutely insane speed, not shown on <b>any other Account on any Team</b>.
+		<br>
+		Interestingly, these accounts were generally only kept in the club, <b>while</b> adding League Points.<br>The only reasonable explanation based on the speed of these accounts, their level and their behaviour, is cheating.
+		</div>
+		<p>Reports about this behaviour, have been sent to Wooga multiple times, by multple people, but no action has been taken</p>
+		<p>The only action that <b>has</b> been taken by Wooga, was to remove <b>all</b> League Points of 5 Accounts on <span class="teamname">Imperial Evidence</span>. Abuse of the listed glitches on those accounts, cannot be observed in the available data, like it can on other accounts in other Teams, therefore the only explanation for this action must be the amount of League Points generated overall and possibly, how even/linear the increase is.<br>However the same even/linear increase can be observed on many Accounts in <span class="teamname">DALLIANCE</span> at a higher rate of speed.<br>This leaves the question open why no action was taken against them, while they are currently in <b>Rank 1</b>. The expected action here would now have to be that their accounts face the <b>same</b> consequences and are set to 0 for <b>all</b> weeks, like it was done on <span class="teamname">Imperial Evidence</span>.
+		</b>
+		</p>
+		<div style="width: 100%;"><h4>Brief description of how to spot glitch abuse in the data</h4>
+		<b><u>Collecting CM multiple times</u></b></br>
+		Increases that are multiples of <i>400</i> (such as 400, 800, 1200) in somewhat short succession, generating about <i>2000</i> League Points. This happens due to collecting the 2nd CM Milestone of <i>400</i> League Points multiple times.<br>
+		<span class='subnote'>A notable example of this are multiple accounts in <span class="teamname">DALLIANCE</span> at the start of <a href="#dl_w4">Week 4</a></span>
+
+		<br><br><b><u>Double Drinking</u></b></br>
+		League Points generation of about 2610 in a short timeframe. Usually there is an observable increase of <i>90</i> League Points from serving 40 + 50 Drinks, followed by a steep increase of <i>1260</i> League Points achieved by using the <b>Drink All</b> Button, followed by a slightly slower increase of another <i>1260</i> League Points (from drinking again), resulting in about <i>2610</i> League Points from Drinks instead of <i>1350</i><br>
+		Due to additional Tasks collected, this can be a slight variation of increases in the data, but is generally still noticeable, due to the overall Points generated.<br>
+		<span class='subnote'>Obvious examples of this are <b>Airon</b> and <b>Pitohu</b> in <span class="teamname">DALLIANCE</span> on April 1st in <a href="#dl_w5">Week 5</a>, but can be observed on many other Accounts similarily as well</span>
+		
+		<br><br><b><u>Extending Competition Time</u></b></br>
+		This is not as easy to see in this data, but can be observed when knowing when a competition was started and how long it should've went.<br>A frequent occurence was that playtimes have been extended by <i>10-15</i> minutes.
+
+		<br><br><b><u>Additional Accounts</u></b></br>
+		Can be easily seen when looking at the legend of the charts on the right side, as it shows the contributing accounts.<br>
+		<i>Dashed Lines</i> show accounts not being present in the Team at a certain time, which allows to easily see which accounts have been swapped.
+		</div>
+		
+		<div>
+		<h4>Closing Remarks</h4>
+		More information per week on each club will follow later, but it should be possible to generally see unusual behaviour and confirm observations, from the data provided, with the details in this text.<br>
+		To provide your own insights, concerns or observations, please contribute them as <a target="_blank" href="https://github.com/JJLStats/jjlstats.github.io/issues">Github Issue</a> or <a target="_blank" href="https://github.com/JJLStats/jjlstats.github.io/pulls">Pull request</a></div>
+      </div>
+
+      <div id="dashboard-view" class="hidden">
+        
+        <div class="view-header">
+          <button id="close-chart-btn" class="action-btn" style="background: #ff0044; color: white;">✖ Close Chart</button>
+        </div>
+
+        <div id="ChartCont">
+          </div>
+        
+        <div id="bottom-panel">
+          <button id="bottom-toggle" title="Toggle Notes">▼</button>
+          
+          <div id="notes-area"></div>
+        </div>
+        
+      </div>
+      
+    </main>
+
+    <div id="annotation-modal" class="modal-hidden">
+      <div class="modal-content">
+        <h3 style="margin-top: 0; color: #ff0044;">Point Selected</h3>
+        <p><strong>Member ID:</strong> <span id="modal-memberId"></span></p>
+        <p><strong>Time (X):</strong> <span id="modal-x"></span></p>
+        <p><strong>Points (Y):</strong> <span id="modal-y"></span></p>
+        
+        <label for="modal-json-output" style="display: block; margin-top: 15px; margin-bottom: 5px;">JSON Snippet:</label>
+        <textarea id="modal-json-output" rows="12" spellcheck="false"></textarea>
+        
+        <div style="margin-top: 15px; display: flex; gap: 10px;">
+          <button class="modal-btn copy-btn" onclick="copyModalJson()">Copy JSON</button>
+          <button class="modal-btn close-btn" onclick="closeModal()">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@2.1.0/dist/chartjs-plugin-annotation.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js"></script>
+  
+  <script src="data/club_datas.js" charset="UTF-8"></script>
+  <script src="/scripts/visualize.js"></script>
+  <script src="/scripts/point_analyze.js"></script>
+  <script src="/scripts/main.js"></script> </body>
+</html>
