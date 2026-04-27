@@ -42,7 +42,10 @@ a {
 
 #app-container {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+  min-height: fill-available;
   width: 100vw;
   background: var(--bg-dark);
 }
@@ -194,6 +197,9 @@ a {
   padding-left: 300px;
   transition: padding 0.3s ease-in-out;
 }
+#app-container:fullscreen #main-content {
+	padding: 0;
+}
 
 #main-content.collapsed {
   padding-left: 20px;
@@ -247,7 +253,6 @@ a {
   background: var(--bg-panel);
   border-radius: 12px;
   border: 1px solid var(--border-color);
-  padding: 15px;
   box-sizing: border-box;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
   min-height: 0;
