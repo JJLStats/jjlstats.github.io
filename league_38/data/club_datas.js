@@ -1,5 +1,6 @@
 const WeekID = [
-  "W1"
+  "W1",
+  "W2"
 ]
 const ClubID = {
   "th": "The Hangover",
