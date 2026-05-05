@@ -7,7 +7,12 @@
   {
     "club": "cs",
     "week": "W2",
-    "text": "Accounts used this Week: 15\nLeague Points Gained: 92700"
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 198880"
+  },
+  {
+    "club": "cs",
+    "week": "W3",
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 27550"
   },
   {
     "club": "dd",
@@ -17,7 +22,12 @@
   {
     "club": "dd",
     "week": "W2",
-    "text": "Accounts used this Week: 15\nLeague Points Gained: 108320"
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 187790"
+  },
+  {
+    "club": "dd",
+    "week": "W3",
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 28020"
   },
   {
     "club": "ie",
@@ -27,7 +37,12 @@
   {
     "club": "ie",
     "week": "W2",
-    "text": "Accounts used this Week: 15\nLeague Points Gained: 141060"
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 272670"
+  },
+  {
+    "club": "ie",
+    "week": "W3",
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 34820"
   },
   {
     "club": "ka",
@@ -37,7 +52,12 @@
   {
     "club": "ka",
     "week": "W2",
-    "text": "Accounts used this Week: 18\nLeague Points Gained: 110820"
+    "text": "Accounts used this Week: 18\nLeague Points Gained: 192020"
+  },
+  {
+    "club": "ka",
+    "week": "W3",
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 27650"
   },
   {
     "club": "sa",
@@ -47,7 +67,12 @@
   {
     "club": "sa",
     "week": "W2",
-    "text": "Accounts used this Week: 15\nLeague Points Gained: 105570"
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 211340"
+  },
+  {
+    "club": "sa",
+    "week": "W3",
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 27220"
   },
   {
     "club": "th",
@@ -57,6 +82,11 @@
   {
     "club": "th",
     "week": "W2",
-    "text": "Accounts used this Week: 15\nLeague Points Gained: 164120"
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 333550"
+  },
+  {
+    "club": "th",
+    "week": "W3",
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 30410"
   }
 ]
