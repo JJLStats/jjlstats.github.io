@@ -42,10 +42,10 @@ a {
 
 #app-container {
   display: flex;
-  min-height: 100vh;
-  min-height: -moz-available;
-  min-height: -webkit-fill-available;
-  min-height: fill-available;
+  height: 100vh;
+  height: -moz-available;
+  height: -webkit-fill-available;
+  height: fill-available;
   width: 100vw;
   background: var(--bg-dark);
 }
@@ -208,6 +208,9 @@ a {
 @media (max-width: 600px) {
   #main-content {
     padding: 20px !important;
+  }
+  #app-container:fullscreen #main-content {
+    padding: 0px !important;
   }
 }
 
