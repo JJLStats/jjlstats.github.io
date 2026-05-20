@@ -1,64 +1,64 @@
 {
   "profiles": {
+    "cafiEsTdu": {
+      "lvl": 1744,
+      "name": "ChasingTime"
+    },
+    "PgxuCupdt": {
+      "lvl": 1767,
+      "name": "Rip Wheeler"
+    },
     "EVl60ahZr": {
-      "lvl": 1882,
+      "lvl": 1892,
       "name": "Bam Bam"
     },
-    "JBGh8vent": {
-      "lvl": 2213,
-      "name": "Casey Closed"
+    "JmjHnj7tq": {
+      "lvl": 1420,
+      "name": "HappyGoLucky"
     },
-    "btPTkQKKs": {
-      "lvl": 1813,
-      "name": "Serendipity"
+    "RJhjhKzJj": {
+      "lvl": 2445,
+      "name": "Sharon"
     },
     "FkAFUrn7s": {
       "lvl": 555,
       "name": "IvyB"
     },
-    "PgxuCupdt": {
-      "lvl": 1754,
-      "name": "Rip Wheeler"
-    },
-    "cafiEsTdu": {
-      "lvl": 1733,
-      "name": "ChasingTime"
-    },
     "u81WbbC4r": {
-      "lvl": 1196,
+      "lvl": 1202,
       "name": "BuffKitty"
     },
-    "IxoUP5P6p": {
-      "lvl": 727,
-      "name": "Silver Dollar"
-    },
-    "JysobrB4q": {
-      "lvl": 2131,
-      "name": "GigiYung Turtle"
-    },
-    "fuYpuAvts": {
-      "lvl": 1664,
-      "name": "InAnotherCastle"
-    },
-    "RJhjhKzJj": {
-      "lvl": 2434,
-      "name": "Sharon"
-    },
     "6qSTALquu": {
-      "lvl": 1936,
+      "lvl": 1969,
       "name": "ICanSeeIt"
     },
-    "BxELaZGdu": {
-      "lvl": 422,
-      "name": "DashingTurtle"
-    },
-    "JmjHnj7tq": {
-      "lvl": 1415,
-      "name": "HappyGoLucky"
+    "JysobrB4q": {
+      "lvl": 2144,
+      "name": "GigiYung Turtle"
     },
     "WTV3PjmWr": {
-      "lvl": 322,
+      "lvl": 325,
       "name": "Zeus<sprite=29>"
+    },
+    "BxELaZGdu": {
+      "lvl": 429,
+      "name": "DashingTurtle"
+    },
+    "IxoUP5P6p": {
+      "lvl": 747,
+      "name": "Silver Dollar"
+    },
+    "fuYpuAvts": {
+      "lvl": 1674,
+      "name": "InAnotherCastle"
+    },
+    "btPTkQKKs": {
+      "lvl": 1820,
+      "name": "Serendipity"
+    },
+    "JBGh8vent": {
+      "lvl": 2276,
+      "name": "Casey Closed"
     }
   },
   "datasets": {

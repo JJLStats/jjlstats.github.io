@@ -1,64 +1,64 @@
 {
   "profiles": {
+    "cafiEsTdu": {
+      "lvl": 1744,
+      "name": "ChasingTime"
+    },
+    "PgxuCupdt": {
+      "lvl": 1767,
+      "name": "Rip Wheeler"
+    },
+    "EVl60ahZr": {
+      "lvl": 1892,
+      "name": "Bam Bam"
+    },
+    "JmjHnj7tq": {
+      "lvl": 1420,
+      "name": "HappyGoLucky"
+    },
+    "6qSTALquu": {
+      "lvl": 1969,
+      "name": "ICanSeeIt"
+    },
     "RJhjhKzJj": {
-      "lvl": 2438,
+      "lvl": 2445,
       "name": "Sharon"
     },
-    "fuYpuAvts": {
-      "lvl": 1670,
-      "name": "InAnotherCastle"
+    "u81WbbC4r": {
+      "lvl": 1202,
+      "name": "BuffKitty"
     },
     "FkAFUrn7s": {
       "lvl": 555,
       "name": "IvyB"
     },
-    "JBGh8vent": {
-      "lvl": 2242,
-      "name": "Casey Closed"
-    },
-    "BxELaZGdu": {
-      "lvl": 423,
-      "name": "DashingTurtle"
-    },
-    "JmjHnj7tq": {
-      "lvl": 1418,
-      "name": "HappyGoLucky"
-    },
-    "cafiEsTdu": {
-      "lvl": 1741,
-      "name": "ChasingTime"
-    },
-    "PgxuCupdt": {
-      "lvl": 1759,
-      "name": "Rip Wheeler"
-    },
-    "u81WbbC4r": {
-      "lvl": 1198,
-      "name": "BuffKitty"
-    },
-    "btPTkQKKs": {
-      "lvl": 1815,
-      "name": "Serendipity"
-    },
-    "IxoUP5P6p": {
-      "lvl": 739,
-      "name": "Silver Dollar"
+    "JysobrB4q": {
+      "lvl": 2144,
+      "name": "GigiYung Turtle"
     },
     "WTV3PjmWr": {
-      "lvl": 323,
+      "lvl": 325,
       "name": "Zeus<sprite=29>"
     },
-    "EVl60ahZr": {
-      "lvl": 1887,
-      "name": "Bam Bam"
+    "BxELaZGdu": {
+      "lvl": 429,
+      "name": "DashingTurtle"
     },
-    "6qSTALquu": {
-      "lvl": 1955,
-      "name": "ICanSeeIt"
+    "IxoUP5P6p": {
+      "lvl": 747,
+      "name": "Silver Dollar"
     },
-    "JysobrB4q": {
-      "lvl": 2136,
-      "name": "GigiYung Turtle"
+    "fuYpuAvts": {
+      "lvl": 1674,
+      "name": "InAnotherCastle"
+    },
+    "JBGh8vent": {
+      "lvl": 2276,
+      "name": "Casey Closed"
+    },
+    "btPTkQKKs": {
+      "lvl": 1820,
+      "name": "Serendipity"
     }
   },
   "datasets": {
