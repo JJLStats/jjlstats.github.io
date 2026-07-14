@@ -3,13 +3,14 @@ const WeekID = [
   "W2",
   "W3",
   "W4",
-  "W5"
+  "W5",
+  "W6"
 ]
 const ClubID = {
   "dl": "DALLIANCE",
-  "ka": "Kicking Ass",
-  "sh": "SHLENDRY",
-  "dd": "Dragonfly Detective Agency",
   "cs": "Competition Seekers",
-  "sa": "SECRET ALLIANCE"
+  "ka": "Kicking Ass",
+  "sa": "SECRET ALLIANCE",
+  "dd": "Dragonfly Detective Agency",
+  "sh": "SHLENDRY"
 }
