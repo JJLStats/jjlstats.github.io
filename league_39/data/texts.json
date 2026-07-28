@@ -30,6 +30,11 @@
     "text": "Accounts used this Week: 18\nLeague Points Gained: 240390"
   },
   {
+    "club": "cs",
+    "week": "W7",
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 135045"
+  },
+  {
     "club": "dd",
     "week": "W1",
     "text": "Accounts used this Week: 15\nLeague Points Gained: 183425"
@@ -58,6 +63,11 @@
     "club": "dd",
     "week": "W6",
     "text": "Accounts used this Week: 15\nLeague Points Gained: 147280"
+  },
+  {
+    "club": "dd",
+    "week": "W7",
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 113055"
   },
   {
     "club": "dl",
@@ -90,6 +100,11 @@
     "text": "Accounts used this Week: 32\nLeague Points Gained: 293710"
   },
   {
+    "club": "dl",
+    "week": "W7",
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 198835"
+  },
+  {
     "club": "ka",
     "week": "W1",
     "text": "Accounts used this Week: 15\nLeague Points Gained: 211655"
@@ -118,6 +133,11 @@
     "club": "ka",
     "week": "W6",
     "text": "Accounts used this Week: 38\nLeague Points Gained: 345390"
+  },
+  {
+    "club": "ka",
+    "week": "W7",
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 138925"
   },
   {
     "club": "sa",
@@ -150,6 +170,11 @@
     "text": "Accounts used this Week: 15\nLeague Points Gained: 186590"
   },
   {
+    "club": "sa",
+    "week": "W7",
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 58965"
+  },
+  {
     "club": "sh",
     "week": "W1",
     "text": "Accounts used this Week: 15\nLeague Points Gained: 42345"
@@ -178,5 +203,10 @@
     "club": "sh",
     "week": "W6",
     "text": "Accounts used this Week: 15\nLeague Points Gained: 8590"
+  },
+  {
+    "club": "sh",
+    "week": "W7",
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 12635"
   }
 ]

@@ -4,7 +4,8 @@ const WeekID = [
   "W3",
   "W4",
   "W5",
-  "W6"
+  "W6",
+  "W7"
 ]
 const ClubID = {
   "dl": "DALLIANCE",
