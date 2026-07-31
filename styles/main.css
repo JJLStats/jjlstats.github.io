@@ -28,7 +28,7 @@ html, body {
 }
 #intro-screen .teamname {
 	font-weight: bold;
-	font-style: italic;
+	color: #e5cf5a;
 }
 #intro-screen {
     overflow-y: auto;

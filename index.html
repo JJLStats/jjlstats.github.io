@@ -21,7 +21,6 @@
   <meta property="twitter:image" content="https://jjlstats.github.io/assets/league-preview-image.jpg">
 
   <link rel="stylesheet" href="styles/main.css">
-  <link rel="stylesheet" href="styles/timeframe.css">
 </head>
 <body>
   
@@ -42,6 +41,7 @@
 			<button class="ui-btn"><a href="/league_37">League 37</a></button>
 			<button class="ui-btn"><a href="/league_38">League 38</a></button>
 			<button class="ui-btn"><a href="/league_39">League 39</a></button>
+			<button class="ui-btn"><a href="/league_40">League 40</a></button>
 		  </div>
         </div>
       </div>
@@ -50,7 +50,6 @@
     </aside>
 
     <main id="main-content">
-      
       <div id="intro-screen">
         <h1>JJ League Stats</h1>
         <p>This is a collection of League Points accumulated by individual Accounts on the top Teams</p>
@@ -64,8 +63,20 @@
       </div>
     </main>
 	<script>
-	function selectLeague(lid) {
-		
-	}
+		(() => {
+		  const toggleBtn = document.getElementById('sidebar-toggle');
+		  const mainContent = document.getElementById('main-content');
+		  const sidebar = document.getElementById('sidebar');
+
+		  toggleBtn.addEventListener('click', () => {
+			sidebar.classList.toggle('collapsed');
+			mainContent.classList.toggle('collapsed');
+			if (sidebar.classList.contains('collapsed')) {
+			  toggleBtn.innerText = '▶';
+			} else {
+			  toggleBtn.innerText = '◀';
+			}
+		  });
+		})()
 	</script>
 </html>

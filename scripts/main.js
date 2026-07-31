@@ -195,4 +195,7 @@ document.addEventListener('fullscreenchange', () => {
       setTimeout(handleHash, 10);
     }
   });
+  document.getElementById("otherleagues-btn").addEventListener('click', () => {
+	window.location.href = '/'
+  });
 })();
