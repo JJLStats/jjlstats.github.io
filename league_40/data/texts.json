@@ -17,7 +17,12 @@
   {
     "club": "cd",
     "week": "W4",
-    "text": "Accounts used this Week: 40\nLeague Points Gained: 538215"
+    "text": "Accounts used this Week: 40\nLeague Points Gained: 570595"
+  },
+  {
+    "club": "cd",
+    "week": "W5",
+    "text": "Accounts used this Week: 0\nLeague Points Gained: 0"
   },
   {
     "club": "cs",
@@ -37,7 +42,12 @@
   {
     "club": "cs",
     "week": "W4",
-    "text": "Accounts used this Week: 15\nLeague Points Gained: 205910"
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 233940"
+  },
+  {
+    "club": "cs",
+    "week": "W5",
+    "text": "Accounts used this Week: 10\nLeague Points Gained: 11210"
   },
   {
     "club": "dl",
@@ -57,7 +67,12 @@
   {
     "club": "dl",
     "week": "W4",
-    "text": "Accounts used this Week: 15\nLeague Points Gained: 607740"
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 620320"
+  },
+  {
+    "club": "dl",
+    "week": "W5",
+    "text": "Accounts used this Week: 5\nLeague Points Gained: 4530"
   },
   {
     "club": "ie",
@@ -77,7 +92,12 @@
   {
     "club": "ie",
     "week": "W4",
-    "text": "Accounts used this Week: 15\nLeague Points Gained: 267375"
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 304565"
+  },
+  {
+    "club": "ie",
+    "week": "W5",
+    "text": "Accounts used this Week: 7\nLeague Points Gained: 8460"
   },
   {
     "club": "qc",
@@ -97,7 +117,12 @@
   {
     "club": "qc",
     "week": "W4",
-    "text": "Accounts used this Week: 16\nLeague Points Gained: 188440"
+    "text": "Accounts used this Week: 16\nLeague Points Gained: 211630"
+  },
+  {
+    "club": "qc",
+    "week": "W5",
+    "text": "Accounts used this Week: 3\nLeague Points Gained: 530"
   },
   {
     "club": "sa",
@@ -117,7 +142,12 @@
   {
     "club": "sa",
     "week": "W4",
-    "text": "Accounts used this Week: 16\nLeague Points Gained: 180555"
+    "text": "Accounts used this Week: 16\nLeague Points Gained: 209915"
+  },
+  {
+    "club": "sa",
+    "week": "W5",
+    "text": "Accounts used this Week: 6\nLeague Points Gained: 1690"
   },
   {
     "club": "tx",
@@ -137,6 +167,11 @@
   {
     "club": "tx",
     "week": "W4",
-    "text": "Accounts used this Week: 15\nLeague Points Gained: 536170"
+    "text": "Accounts used this Week: 15\nLeague Points Gained: 545660"
+  },
+  {
+    "club": "tx",
+    "week": "W5",
+    "text": "Accounts used this Week: 7\nLeague Points Gained: 4580"
   }
 ]
